@@ -1,3 +1,4 @@
+//Printing numbers using recursion
 class Solution {
 public:
     void printNumbers(int n) {
@@ -8,6 +9,7 @@ public:
     }
 };
 
+//Sum of the first n numbers using recursion
 class Solution {
 public:
     int NnumbersSum(int N) {
