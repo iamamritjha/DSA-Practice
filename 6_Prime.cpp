@@ -9,6 +9,7 @@ public:
         if (n % 2 == 0) return false;         // even numbers > 2 are not prime
 
         // check only odd divisors up to sqrt(n)
+        // 1LL Means,1 is an integer, and LL stands for Long Long type integer
         for (int i = 3; 1LL * i * i <= n; i += 2) {
             if (n % i == 0)
                 return false;
